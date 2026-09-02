@@ -162,4 +162,10 @@ OpenStreetMap, la División Político-Administrativa 2023 y el Censo 2024 se rig
 
 ## Cómo citar
 
+**El trabajo de tesis:**
+
 González Henríquez, M. A. (2026). *Condiciones metodológicas para el uso de datos de telefonía móvil en estudios sociales y urbanos en Chile*. Tesis para optar a los títulos de Ingeniero Civil Industrial y Magíster en Ciencia de Datos, Universidad de Chile.
+
+**Este repositorio:**
+
+González Henríquez, M. A. (2026). *pipeline-telco-chile-aplicaciones: Implementaciones de referencia del pipeline metodológico propuesto para el uso de datos de telefonía móvil en estudios sociales y urbanos en Chile*. Repositorio de código. https://github.com/martingzz/pipeline-telco-chile-aplicaciones
