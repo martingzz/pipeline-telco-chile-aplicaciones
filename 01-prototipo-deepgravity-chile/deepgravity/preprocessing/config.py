@@ -48,9 +48,10 @@ PROTOTYPE_ROOT = Path(__file__).resolve().parents[2]
 #
 # Las fuentes externas no forman parte de la entrega. Puede definirse su
 # ubicación mediante la variable de entorno DGCL_DATA_DIR o editando el valor
-# por defecto. Con el valor por defecto, el directorio external_data/ queda
-# dentro del directorio del prototipo pero excluido del control de versiones
-# mediante .gitignore.
+# por defecto. Con el valor por defecto, el directorio external_data/ se crea
+# dentro del directorio del prototipo, de modo que la fuente queda dentro del
+# árbol del proyecto; definir DGCL_DATA_DIR hacia una ubicación externa la
+# mantiene fuera de él.
 
 EXTERNAL_DATA_DIR = Path(
     os.environ.get("DGCL_DATA_DIR", PROTOTYPE_ROOT / "external_data")
